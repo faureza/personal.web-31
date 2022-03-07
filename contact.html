@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+        <nav>
+            <div class="left-side">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="my logo">
+                </a>
+                    <ol>
+                        <li>
+                            <a href="index.html" target="blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="blog.html" target="blank">My Project</a>
+                        </li>
+                    </ol>
+            </div>
+            </nav>
+            
+    <center>
+        <div class="form-contact">
+            <div class="form-text">
+                <h2>GET IN TOUCH</h2>
+            </div>
+            <div class="container-form">
+                <form>
+                    <div>
+                        <label for="input-name">Name</label>
+                        <input type="text" placeholder="Your Name" id="input-name"/>
+                    </div>
+                
+                    <div>
+                        <label for="input-email">Email</label>
+                        <input type="email" placeholder="Your Email" id="input-email"/>
+                    </div>
+
+                    <div>
+                        <label for="input-phone">Phone Number</label>
+                        <input type="text" placeholder="Phone Number" id="input-phone"/>
+                    </div>
+
+                    <div>
+                        <label for="input-subject">Gender</label>
+                        <select id="input-subject">
+                            <option value="" disabled selected>Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+            
+                    <div>
+                        <label for="massage">Massage</label>
+                        <textarea placeholder="Your Massage" id="input-massage"></textarea>
+                    </div>
+                    <button type="button" onclick="showData()" >Submit</button>
+                </form>
+            </div>    
+        </div>
+    </center>
+    <script src="form.js"></script>
+</body>
+
+</html>
